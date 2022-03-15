@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MemberListController">
+   <children>
+      <Label layoutX="239.0" layoutY="34.0" text="Member View" textFill="#9e0303">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TableView fx:id="memberTable" layoutX="137.0" layoutY="88.0" prefHeight="200.0" prefWidth="331.0">
+      </TableView>
+      <Button fx:id="viewButton" layoutX="276.0" layoutY="309.0" mnemonicParsing="false" onAction="#viewAction" text="View" textFill="#9e0404">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonBackFour" layoutX="275.0" layoutY="351.0" mnemonicParsing="false" onAction="#backFourAction" text="Back" textFill="#a10404">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

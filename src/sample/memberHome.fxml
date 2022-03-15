@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MemberHomeController">
+   <children>
+      <Button fx:id="bookIssueButton" layoutX="237.0" layoutY="103.0" mnemonicParsing="false" onAction="#bookIssueAction" text="Issue Book" textFill="#8a0303">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="bookReturnButton" layoutX="229.0" layoutY="164.0" mnemonicParsing="false" onAction="#bookReturnAction" text="Return Book" textFill="#8a0404">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Label layoutX="232.0" layoutY="51.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="logoutButton" layoutX="256.0" layoutY="288.0" mnemonicParsing="false" onAction="#logoutAction" text="Logout" textFill="#860303">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Label fx:id="userName" layoutX="236.0" layoutY="42.0" text="Label">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="forgotIdbutton" layoutX="245.0" layoutY="226.0" mnemonicParsing="false" onAction="#forgotIdAction" text="Forgot ID" textFill="#6f0202">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
